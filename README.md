@@ -43,3 +43,5 @@ Novel ideas:
 -Points/gamify like Cambridge (270+ at 4.9* is either working or they buy bots)
 -Personal stats, everyone loves a stat about themselves. Total attended classes, completion of course in percentage, etc...
 -Main page but organised. One page but as "leaves" of the page, creates illusion of not clicking off the page and having to reload to get back)
+-Dark/Light UI
+
