@@ -20,6 +20,7 @@ Main customers:
 -Lecturers
 --Room booking
 --Research/academic contributions?
+--Upload/edit content
 
 -Support Staff
 --Clockin/out?
