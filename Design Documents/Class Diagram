@@ -1,0 +1,23 @@
+classDiagram
+    Timetable -- Session
+    Session -- Module
+    class Timetable {
+        addSession()
+    }
+    class Session {
+        id: uuid
+        name: str
+        moduleId: int
+        lectureName: str
+        startTime: LocalDate
+        endTime: LocalDate
+        colour: str
+        type: bool
+        mandatory: bool
+
+    }
+    class Module {
+        id: int
+        name: str
+
+    }
