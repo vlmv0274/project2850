@@ -1,4 +1,4 @@
-##Story:
+##Story 1:
 
 As a student, I want to access the app quickly and know it is responsive, so that I can know if I have to retry opening or stay on
 
@@ -13,3 +13,15 @@ Given I have opened the app, when I am wanting to use my most frequently used fe
 ##Sprint goal:
 
 Pawlak will be able to see via a loading bar if the app is responsive and if not, be able to kill it to restart. 
+
+
+
+##Story 2:
+
+As a student, I want to have clear communications from my university professors and staff regarding the course, so that I know all the important announcements and changes as soon as possible.
+
+##Acceptance criteria
+
+Given I am on the main screen, I can easily open my emails in the app, so I don't have to "tab out" between apps.
+
+Given I have just opened the app, when I look at the main screen, I can see crucial university wide updates as a banner.
