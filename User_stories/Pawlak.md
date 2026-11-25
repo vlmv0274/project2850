@@ -5,7 +5,9 @@ As a student, I want to access the app quickly and know it is responsive, so tha
 ##Acceptance criteria
 
 Given I have opened the app, when I am on the loading screen, there is some indication the app is working. 
+
 Given I have opened the app, when I am wanting to access its content, the app loads quickly within seconds. 
+
 Given I have opened the app, when I am wanting to use my most frequently used features, then I can get to them in a short amount of clicks. 
 
 ##Sprint goal:
