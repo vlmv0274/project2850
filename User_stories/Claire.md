@@ -9,4 +9,5 @@ Given I am planning my week, when I open my time table to view my week, then the
 Given I am only looking for the mandatory lectures, when I am scrolling through the weekly timetable, then the entries can be filtered
 
 Sprint goal:
+
 Claire will be able to see her timetable clearly and have it be reasonably accurate
