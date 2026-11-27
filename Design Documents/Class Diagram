@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     Database <|-- Timetable
     Database <|-- ModuleDatabase
@@ -36,3 +37,4 @@ classDiagram
         str name
         list[uuid] associatedSessions
     }
+```
