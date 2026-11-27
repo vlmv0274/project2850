@@ -1,23 +1,38 @@
 classDiagram
+    Database <|-- Timetable
+    Database <|-- ModuleDatabase
     Timetable -- Session
     Session -- Module
-    class Timetable {
-        addSession()
+    ModuleDatabase -- Module
+
+    class Database {
+        str filePath
+        loadDatabase()
+        saveDatabase()
     }
+
+    class Timetable{
+        editSession(id, *)
+    }
+
+    class ModuleDatabase {
+        editModule(id, *)
+    }
+
     class Session {
-        id: uuid
-        name: str
-        moduleId: int
-        lectureName: str
-        startTime: LocalDate
-        endTime: LocalDate
-        colour: str
-        type: bool
-        mandatory: bool
-
+        uuid id
+        str name
+        LocalDate startTime
+        LocalDate endTime
+        str lecturerName
+        str room
+        bool mandatory
+        str type
+        uuid moduleID
     }
-    class Module {
-        id: int
-        name: str
 
+    class Module {
+        uuid id
+        str name
+        list[uuid] associatedSessions
     }
